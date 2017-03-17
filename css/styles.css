@@ -90,10 +90,9 @@
   font-family: sans-serif;
 }
 .container {
-
   margin-left: 25%;
-  padding-top: 7%
-}
+  margin-top: 10%;
+  }
 .bg-panel {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
@@ -108,4 +107,7 @@
 }
 .row {
   margin-bottom: 30px;
+}
+#sidenav-margin {
+  margin-top: -127px;
 }
