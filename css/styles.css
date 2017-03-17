@@ -10,10 +10,69 @@
 }
 .nav-list {
   list-style: none;
+  padding-right: 15%
+}
+.nav-list a {
+  color: inherit;
 }
 .nav-item {
-  padding-left: 20px;
+  padding-left: 50px;
   display: inline;
   font-family: sans-serif;
   float: right;
+}
+.bg-cover {
+ background:repeat;
+ background-position: center;
+ background-size: cover;
+ width: 100vh;
+ height: 100vh;
+
+}
+
+.bg-img {
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+}
+.main {
+  background-color: #f1f1f1;
   }
+
+.transbox {
+  box-sizing: content-box;
+  margin-top: 50%;
+  background-color: inherit;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.wrapper img {
+  display: block;
+  max-width:100%;
+  }
+
+.overlay {
+  position: absolute;
+  margin-top: 30%;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  text-align: center;
+  font-family: sans-serif;
+  color: purple;
+  font-weight: bold;
+  padding-top: 25%;
+}
