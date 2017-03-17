@@ -24,7 +24,7 @@
 }
 .bg-img {
   width: 200vh;
-  height: 500vh%;
+  height: 100%;
   background-size: cover;
 }
 body {
@@ -32,19 +32,6 @@ body {
 }
 .main {
   background-color: #f1f1f1;
-  }
-.transbox {
-  box-sizing: content-box;
-  margin-top: 50%;
-  background-color: inherit;
-  border: 1px solid black;
-  opacity: 0.6;
-}
-.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-  text-align: center;
 }
 .bg-cover {
   background-size: cover;
@@ -96,15 +83,14 @@ body {
   margin-left: 25%;
   margin-top: 10%;
   margin-right: 5%;
-  }
+}
 .bg-panel {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   padding: 4px 4px 4px 10px;
 }
 .bg-title {
-  font-family :serif;;
-
+  font-family :serif;
   margin-top: 1px;
   background-color: #e1d7e8;
   border: 1px solid #ccc;
@@ -123,7 +109,6 @@ footer {
   font-weight: lighter;
   font-family: monospace;
 }
-
 #container-align {
   margin-left: 25%;
   margin-top : 10%
@@ -138,8 +123,7 @@ margin-left: 25%;
   font-style: italic;
   font-weight: bold;
 }
-.title1
-{
+.title1 {
   font-family: sans-serif;
   font-style: normal;
   color :purple;
