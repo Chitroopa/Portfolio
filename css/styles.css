@@ -19,26 +19,17 @@
   padding-left: 50px;
   display: inline;
   font-family: sans-serif;
+  font-weight: normal;
   float: right;
 }
-.bg-cover {
- background:repeat;
- background-position: center;
- background-size: cover;
- width: 100vh;
- height: 100vh;
-
-}
-
 .bg-img {
-  width: 100vh;
-  height: 100vh;
+  width: 200vh;
+  height: 500vh%;
   background-size: cover;
 }
 .main {
   background-color: #f1f1f1;
   }
-
 .transbox {
   box-sizing: content-box;
   margin-top: 50%;
@@ -52,20 +43,17 @@
   color: #000000;
   text-align: center;
 }
-
-.wrapper {
+.bg-cover {
+  background-size: cover;
   display: inline-block;
   position: relative;
 }
-
-.wrapper img {
+.bg-cover img {
   display: block;
   max-width:100%;
-  }
-
+}
 .overlay {
   position: absolute;
-  margin-top: 30%;
   top:0;
   left:0;
   width:100%;
@@ -75,4 +63,16 @@
   color: purple;
   font-weight: bold;
   padding-top: 25%;
+}
+.sidenav {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  margin-top: 3px;
+  text-align: justify;
+  padding-right:30px;
+  padding-top: 30px;
 }
